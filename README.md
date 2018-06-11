@@ -32,6 +32,6 @@ I incremented the frames per second of the snake movement linearly with jumps ev
 this increases the speed of the snake. There is a lot of event handling such as responsiveness to the keyboard clicks and
 collisions between the snake and various objects.The X and Y coordinates of each object were set up so that no two objects 
 (apples, rocks) would be in the exact same position. The setup.py uses cx_Freeze to convert the Python program into an executable.
-In the future I plan on adding a more efficient way of spawning rocks. Screenshots of the game are in the Screenshots folder. 
+In the future I plan on adding a more efficient way of spawning rocks so that they do not spawn right next to the snake head. 
+Screenshots of the game are in the Screenshots folder. 
 
-so that they do not spawn right next to the snake head. 
