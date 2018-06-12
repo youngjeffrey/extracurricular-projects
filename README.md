@@ -35,3 +35,10 @@ collisions between the snake and various objects.The X and Y coordinates of each
 In the future I plan on adding a more efficient way of spawning rocks so that they do not spawn right next to the snake head. 
 Screenshots of the game are in the Screenshots folder. 
 
+_Spaceinvaders_
+
+The remake of the classical Space Invaders game. I wrote the frontend and backend of this game using Pygame and Turtle
+graphics and utilities. The game is responsive to user controls and there is score tracking. Mathematical formulas like 
+Pythagorean Theorem, distance formula, and vectors were coded to set paths of objects, detect collisions, and determine whether 
+it's game over. In the future I plan on implementing my own twist to Space Invaders such as upgrades to the spaceship. In addition
+I want to implement a way for the user to play again once Game Over has been reached. 
