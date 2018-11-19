@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minesweeper</title>
+        <link rel='stylesheet' href='style.css' />
+    </head>
+    <body bgcolor = "#add8e6">
+        <h3 id="game-status" style="text-align: center;">Welcome to Minesweeper</h3>
+        <div id="gameboard">
+            <p><b>Mines Left:</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Time (seconds):</b> <input style="margin-left: 18%;" type="button" value="Restart Game" onClick="window.location.reload()"> </p>
+        </div>
+        <div style="width: 100px; float:left;">
+            <p id="minesleft" style="font-size: 20px; margin-left: 80%;"></p>
+        </div>
+        <div style="width: 200px; float:left;">
+            <p id="seconds" style="font-size: 20px; margin-left: 80%;">0</p>
+        </div>
+        <canvas id='canvas' width='600' height='600'></canvas>
+        <script src='minesweeper.js'></script>
+        <script src='render.js'></script>
+        <script src='controller.js'></script>
+        <p id = "high-score" style="font-size: 30px; margin-left: 30%;"></p>
+    </body>
+</html>
